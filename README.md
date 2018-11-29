@@ -6,7 +6,7 @@ Able to packages in Trip, Add traveller and show the receipt with detail informa
 
 ## Getting Started
 
-Since this is console application 
+Since this is console application nothing need to download except IDE. 
 
 ### Prerequisites
 
@@ -31,8 +31,8 @@ Intellij IDE
 To run test file (main.java).
 
 ## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+ 
+ will be announce in future.
 
 ## Authors
 
