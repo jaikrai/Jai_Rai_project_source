@@ -18,7 +18,6 @@ public class ItineraryFactory {
         itinerary = new ItineraryAppendSeparator(itinerary);
         itinerary = new ItineraryAppendAddPackages(itinerary);
         itinerary = new ItineraryAppendSeparator(itinerary);
-        itinerary = new ItineraryAppendSeparator(itinerary);
         itinerary = new ItineraryAppendAddContactPerson(itinerary);
         itinerary = new ItineraryAppendSeparator(itinerary);
         itinerary = new ItineraryAppendAddTravellers(itinerary);
@@ -33,8 +32,8 @@ public class ItineraryFactory {
     //If not checked prior to calling factory, exception can occur.
     public static boolean TripCanProduceItinerary(Trip trip){
         //!!!!THIS IS NOT EXACTLY THE SAME AS C#!!!!!!!!
-        //there is no 'nameof' operator in Java. if there is time
-        //I might search for 3rd party library
+        // there is no 'name of' operator in Java. if there is time
+        // I might search for 3rd party library
         assert trip != null : "trip != null";
 
         return trip.getTripStateStatus() == TripState.Status.Complete;
@@ -42,8 +41,8 @@ public class ItineraryFactory {
 
     public static void ValidateTripCanProduceItinerary(Trip trip) throws Exception{
         //!!!!THIS IS NOT EXACTLY THE SAME AS C#!!!!!!!!
-        //there is no 'nameof' operator in Java. if there is time
-        //I might search for 3rd party library
+        // there is no 'name of' operator in Java. if there is time
+        // I might search for 3rd party library
         assert trip != null : "trip != null";
 
         if(!TripCanProduceItinerary(trip))
